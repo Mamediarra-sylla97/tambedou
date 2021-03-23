@@ -1,0 +1,350 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+}
+body{
+	background-color: rgba(000,112,192,0.15);
+}
+nav img{
+	width: 100%;
+	height: 300px;
+}
+.cli h1{
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+	color: rgba(000,112,192,0.15);
+
+}
+.cli h1 ul{
+	position:  absolute;
+	display: flex;
+}
+.cli h1 ul li{
+	list-style: none;
+	font-size: 40px;
+	letter-spacing: 10px;
+	animation: flash 3s infinite;
+}
+@keyframes flash{
+	50%{
+		color: #8B4513;
+		text-shadow: 0 0 50px;
+	}
+	60%{
+		color: red;
+		text-shadow: 0 0 50px;
+	}
+}
+ul li:nth-child(1){
+	animation-delay: .1s;
+}
+ul li:nth-child(2){
+	animation-delay: .2s;
+}
+ul li:nth-child(3){
+	animation-delay: .3s;
+}
+ul li:nth-child(4){
+	animation-delay: .4s;
+}
+ul li:nth-child(5){
+	animation-delay: .5s;
+}
+ul li:nth-child(6){
+	animation-delay: .6s;
+}
+ul li:nth-child(7){
+	animation-delay: .7s;
+}
+ul li:nth-child(8){
+	animation-delay: .8s;
+}
+ul li:nth-child(9){
+	animation-delay: .9s;
+}
+ul li:nth-child(10){
+	animation-delay: 1s;
+}
+ul li:nth-child(11){
+	animation-delay: 1.1s;
+}
+ul li:nth-child(12){
+	animation-delay: 1.2s;
+}
+ul li:nth-child(13){
+	animation-delay: 1.3s;
+}
+ul li:nth-child(14){
+	animation-delay: 1.4s;
+}
+ul li:nth-child(15){
+	animation-delay: 1.5s;
+}
+ul li:nth-child(16){
+	animation-delay: 1.6s;
+}
+ul li:nth-child(17){
+	animation-delay: 1.7s;
+}
+ul li:nth-child(18){
+	animation-delay: 1.8s;
+}
+ul li:nth-child(19){
+	animation-delay: 1.9s;
+}
+ul li:nth-child(120){
+	animation-delay: 20s;
+}
+.S{
+	padding: 0 100px;
+	background:url(produits-barkelou-1.jpg);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.s{
+	position: relative;
+	max-width: 600px;
+	padding: 50px;
+	background:rgba(255,255,255,.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.s h2{
+	margin: 0 0 20px ;
+	padding: O;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #CD853F;
+	text-shadow: 0 0 50px;
+}
+.s p{
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	
+}
+.SS{
+	padding:  40px;
+	
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	margin:40px;
+	
+
+
+	
+}
+.Ss{
+	position: relative;
+	max-width: 600px;
+	padding: 50px;
+	background:rgba(255,255,255,.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	border-radius: 100px;
+	width: 100%;
+	text-align: center;
+}
+.Ss .liste1 span{
+	color: #D2B48C;
+}
+
+.Ss h1{
+	margin: 0 0 20px ;
+	padding: 0;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #D2691E;
+	text-shadow: 0 0 50px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+.bio{
+	padding: 0 100px;
+	background:url(moringa-1-300x300.jpeg);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: center;
+	
+}
+.bio .s{
+	position: relative;
+	max-width: 600px;
+	padding: 50px;
+	background:rgba(255,255,255,.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.s h1{
+	margin: 0 0 20px ;
+	padding: 0;
+	font-size: 68px;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 0 0 50px;
+}
+
+.bio .s a{
+			background-color: yellow;
+	        color: white;
+			font-size: 30px;
+			font-weight: 100;
+			border: 2px solid yellow;
+			border-radius: 20px;
+			padding: 10px 20px;
+			margin-top: 30px; 
+	}
+	.bio .s a:hover{
+	background:green; }
+	
+
+/*--------------------------------------------------------------------------------------------*/;
+
+.S1{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 150px;
+}
+.S1 .right img{
+	height: 400px;
+	width: 400px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+.S1 .left{
+	font-size: 20px;
+	font-weight: 50;
+}
+
+
+.S1 .left{
+	width: 50%;
+	height: 400px;
+
+}
+.S1 .left h1{
+	color: black;
+	text-shadow: 0 0 50px;
+	font-weight: 100px;
+	font-size: 60px;
+	text-align: center;
+}
+.S1 .right{
+	width: 50%;
+	height: 400px;
+}
+
+.S2{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 100px;
+}
+.S2 .left img{
+	height: 500px;
+	width: 500px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+.S2 .right{
+	font-size: 20px;
+	font-weight: 50;
+	width: 50%;
+	height: 400px;
+}
+.S2 .left{
+	width: 60%;
+	height: 400px;
+}
+
+
+.S2 .right{
+	width: 40%;
+	height: 400px;
+
+}
+.S2 .right .baby1{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+	color: green;
+}
+.S2 .right .baby2{
+	width: 100%;
+	height: 200px;
+
+}
+.S2 .baby2 span{
+	color: green;
+}
+
+.baby2 a{
+	display: inline-block;
+	color: white;
+	background-color: Cyan;
+	font-size: 30px;
+	font-weight: 200;
+	border: 2px solid Cyan;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 30px; 
+}
+
+footer{
+	background-color: blue;
+	color: white;
+
+	border: 2px solid white;
+}
+footer span{
+	color: red;
+}
+footer .foot{
+		height: 100%;
+}
+footer{
+	flex-shrink: 0;
+	border-top: 1px dashed #000;
+	width: 100%;
+	background:gray;
+	color: #333;
+}
+.contenu-footer{
+	width: 1200px;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	align-items:  flex-start;
+	font-size:  20px;
+	padding: 50px 0 100px;
+}
+.bloc{
+	width: 25%;
+	margin:0 30px;
+}
+
+.footer-content h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-medias h3{
+	font-size: 25px;
+	padding-bottom: 20px;
+
+}
+ .footer-contact p{
+ 	padding: 5px 0;
+ }
+
+.liste-services,
+.liste-horaires,
+.liste-media{
+	list-style-type: none;
+}

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://kit.fontawesome.com/e44b90d453.js" crossorigin="anonymous"></script>
+	<style type="">
+		
+		*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+}
+body{
+	background-color: #DEB887;
+	
+}
+.cli{
+	background-color: #DEB887;
+}
+
+.cli h1{
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+	color: rgba(000,112,192,0.15);
+
+}
+.cli h1 ul{
+	position:  absolute;
+	display: flex;
+}
+.cli h1 ul li{
+	list-style: none;
+	font-size: 40px;
+	letter-spacing: 10px;
+	animation: flash 7s infinite;
+}
+@keyframes flash{
+	50%{
+		color: #F0E68C;
+		text-shadow: 0 0 50px;
+	}
+	60%{
+		color: white;
+		text-shadow: 0 0 50px;
+	}
+}
+ul li:nth-child(1){
+	animation-delay: .1s;
+}
+ul li:nth-child(2){
+	animation-delay: .2s;
+}
+ul li:nth-child(3){
+	animation-delay: .3s;
+}
+ul li:nth-child(4){
+	animation-delay: .4s;
+}
+ul li:nth-child(5){
+	animation-delay: .5s;
+}
+ul li:nth-child(6){
+	animation-delay: .6s;
+}
+ul li:nth-child(7){
+	animation-delay: .7s;
+}
+ul li:nth-child(8){
+	animation-delay: .8s;
+}
+ul li:nth-child(9){
+	animation-delay: .9s;
+}
+ul li:nth-child(10){
+	animation-delay: 1s;
+}
+ul li:nth-child(11){
+	animation-delay: 1.1s;
+}
+ul li:nth-child(12){
+	animation-delay: 1.2s;
+}
+ul li:nth-child(13){
+	animation-delay: 1.3s;
+}
+ul li:nth-child(14){
+	animation-delay: 1.4s;
+}
+ul li:nth-child(15){
+	animation-delay: 1.5s;
+}
+ul li:nth-child(16){
+	animation-delay: 1.6s;
+}
+ul li:nth-child(17){
+	animation-delay: 1.7s;
+}
+ul li:nth-child(18){
+	animation-delay: 1.8s;
+}
+ul li:nth-child(19){
+	animation-delay: 1.9s;
+}
+ul li:nth-child(120){
+	animation-delay: 20s;
+}
+.sous{
+	display: none;
+	position: absolute;
+	width: 300px;
+}
+.menu li:hover .sous{
+	display: block;
+}
+.menu .sous li{
+	text-align: center;
+	width: 100%;
+	background-color: white;
+	border: 2px solid white;
+
+	font-size: 30px;
+	font-weight: 300;
+	text-decoration: none;
+	margin-left: 30px;
+	transition: color 2s;
+	font-family: 'Teko', sans-serif;
+	color: #00FFFF;
+	text-transform: uppercase;
+	text-shadow: 0 0 50px;
+}
+.navbar .l img{
+	width: 100px;
+	height: 100%;
+	border-radius: 100px;
+	box-shadow: 7px 7px 8px white;
+}
+.navbar{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	
+	padding: 25px 0px;
+	margin-bottom: 10px;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+
+}
+
+.menu li{
+	display: inline-block;
+
+}
+.menu li a{
+	
+	font-size: 30px;
+	font-weight: 300;
+	text-decoration: none;
+	margin-left: 30px;
+	transition: color 2s;
+	font-family: 'Teko', sans-serif;
+	color: #F0E68C;
+	text-transform: uppercase;
+	text-shadow: 0 0 50px;
+
+
+}
+.menu li a:hover{
+	color: white;
+	border-top: 5px solid #F0E68C;
+	background-color: rgba(000,112,192,0.15);
+}
+/*------------------------------------------------*/
+.nav1{
+	padding: 0 100px;
+	background:url(IMG_E1108.JPG);
+	height: 150vh;
+	display: flex;
+	align-items: center;
+	
+  
+}
+.box{
+	position: relative;
+	max-width: 600px;
+	padding: 50px;
+	background:rgba(255,255,255,.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.box p{
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+	color: #DEB887 ;
+	
+}
+
+
+.box h2{
+	margin: 0 0 20px ;
+	padding: O;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #00444463;
+	border: 3px;
+}
+.S1 h3{
+	color: red;
+	text-align: center;
+}
+.S1{
+	font-size: 30px;
+}
+
+footer{
+	background-color: blue;
+	color: white;
+
+	border: 2px solid white;
+}
+footer span{
+	color: red;
+}
+footer .foot{
+		height: 100%;
+}
+footer{
+	flex-shrink: 0;
+	border-top: 1px dashed #000;
+	width: 100%;
+	background:gray;
+	color: #333;
+}
+.contenu-footer{
+	width: 1200px;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	align-items:  flex-start;
+	font-size:  20px;
+	padding: 50px 0 100px;
+}
+.bloc{
+	width: 25%;
+	margin:0 30px;
+}
+
+.footer-content h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-medias h3{
+	font-size: 25px;
+	padding-bottom: 20px;
+
+}
+ .footer-contact p{
+ 	padding: 5px 0;
+ }
+
+.liste-services,
+.liste-horaires,
+.liste-media{
+	list-style-type: none;
+}
+
+	</style>
+}
+</head>
+<body>
+	<section class="cli">
+		<!--<center><img src="C:\Users\Mame Diarra Sylla\Desktop\ISI\HTML\premier site web\logoMaam.jpg"></center>-->
+			<h1>		
+
+
+				<center>
+						<ul>
+							<li>B</li>
+							<li>I</li>
+							<li>E</li>
+							<li>N</li>
+							<li>V</li>
+							<li>E</li>
+							<li>N</li>
+							<li>U</li>
+							<li>E</li>&nbsp &nbsp &nbsp
+							<li>A</li>&nbsp &nbsp &nbsp
+							<li>E</li>
+							<li>S</li>
+							<li>P</li>
+							<li>A</li>
+							<li>C</li>
+							<li>E</li>&nbsp &nbsp &nbsp
+							<li>M</li>
+							<li>A</li>
+							<li>A</li>
+							<li>M</li>&nbsp &nbsp &nbsp
+							<li>S</li>
+							<li>A</li>
+							<li>M</li>
+							<li>B</li>
+							<li>A</li>
+							
+						</ul></center>
+			</h1><br><br>
+
+	</section>
+	<nav class="navbar">
+		<div class="l">
+			<img src="C:\Users\Mame Diarra Sylla\Desktop\ISI\HTML\premier site web\th (4).jpg">
+		</div>
+		<div class="max-width">
+						<div class="menu">
+							<ul class="menu">
+								<li><a href="site.html">Home</a></li>
+								<li><a target="_blank" href="hebergement.html">Hebergement</a></li>
+								<li><a href="">Boutique</a>
+									<ul class="sous">
+										<li><a target="_blank" href="collection.html">Nos collections</a></li>
+										<li><a target="_blank" href="bio.html">Nos produit bio</a></li>
+										
+									
+										<li><a target="_blank" href="restaurant.html">Notre Restaurant</a></li>
+										
+
+
+										
+									</ul>
+
+
+								</li>
+								<li><a target="_blank" href="service.html">Services</a></li>
+								
+								<li><a target="_blank" href="contact.html">Contact</a></li>
+								
+								
+
+
+							</ul>
+						</div>
+		</div>
+	</nav>
+	<section class="nav1">
+		<div class="box">
+			<center><h2>Services</h2></center>
+			<p>
+    		Maam Samba Auberge, c’est une équipe de 7 personnes pour vous servir.
+            Plus que juste des chambres, Maam Samba vous offre un service de qualité : accueil et sécurité 7 jours/7 et 24h/24, une équipe responsable et accueillante, des chambres équipées de chauffe eau solaire, la possibilité de payer en euros et en chèque et un petit déjeuner offert avec votre nuit.
+    	   </p>
+    	
+			
+		</div>
+			<!--<img src="C:\Users\Mame Diarra Sylla\Desktop\ISI\HTML\premier site web\IMG_E0788.JPG">-->
+
+	</section>
+	<section class="S1">
+		  Nous vous proposons aussi une série de services extras :
+          <p> 
+          <center> <h3> <i class="fas fa-utensils"></i>  Restauration</h3> </center> 
+          Le petit dejeuner est compris dans le prix de la chambre. Aussi, l’auberge propose sur réservation, la possibilité de déjeuner ou de dîner sur place. Il s’agit de cuisine familiale sénégalaise à plat unique, boissons en supplément.
+          Tarif repas = 3.500 CFA, soit 5,30 € par personne.
+          Le bar propose du café, du thé et des jus de fruits locaux (rem : l’auberge ne propose pas d’alcool).
+          Voir le menu
+
+			<center><h3><i class="fas fa-random"></i>  Transfert</h3>  </center>
+			Vous pouvez réserver vos transferts arrivée : aéroport – auberge solidaire, ou départ : auberge solidaire – aéroport (de nuit également) par email lors de votre réservation.
+			Tarif transfert= 10.000 CFA, soit 15 € par trajet et par voiture.
+
+			<center><h3><i class="fab fa-internet-explorer"></i>  Internet</h3> </center>
+			<i class="fas fa-wifi"></i>Une connexion wifi est disponible dans tout l’établissement et dans toutes les chambres.
+			</p>
+	</section>
+	      
+
+</body>
+
+<footer>
+		<section class="foot">
+			 <p><center> Create <span> Coding By Mame Diarra </span> &#169;2020 /2021 au right reserved</center></p> 
+		</section>
+
+		<div class="contenu-footer">
+			<div class="bloc footer-services">
+				<h3>Nos services</h3>
+				<ul class="liste-services">
+					<li><a href="">Hebergement</a></li>
+					<li><a href="collection.html">Boutique</a></li>
+					<li><a href="service.html">Services</a></li>
+					
+				</ul>
+				
+			</div>
+			
+		
+		
+			<div class="bloc footer-horaires  ">
+				<h3>Nos horraires</h3>
+				<ul class="liste-services">
+					<li>Lundi 09h-19h</li>
+					<li>Mardi 09h-19h</li>
+					<li>Mercredi 09h-19h</li>
+					<li>Jeudi 09h-19h</li>
+					<li>Vendredi 09h-19h</li>
+					<li>Samedi 09h-19h</li>
+					
+					
+				</ul>
+				
+			</div>
+			<div class="bloc footer-media">
+				<h3>Nos reseaux</h3>
+				<ul class="liste-services">
+					<ul class="liste-media">
+						<p>Vous pouvez nous rejoindre sur:</p><br>
+						<i class="fab fa-facebook" style="font-size:30px"></i>
+						<a  target="_blank" href="https://www.facebook.com/aubergedakar.org">Facebook</a><br><br>
+						<i class="fab fa-instagram" style="font-size:30px"></i>
+						<a  target="_blank" href="https://www.instagram.com/maamsambasenegal">Instagram</a><br>
+						<i class="fab fa-youtube" style="font-size:30px"></i>
+						<a  target="_blank" href="https://www.youtube.com/channel/UClYYrPK95RPr0WdoQNHeZdA">Youtube</a>
+											
+					</ul>
+					
+					
+				</ul>
+				
+			</div>
+	</div>
+			
+		
+	</footer>
+</html>
